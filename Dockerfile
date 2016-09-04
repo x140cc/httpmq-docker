@@ -11,5 +11,4 @@ RUN apk --update add go git \
   && apk del go git \
   && rm -rf $GOPATH /var/cache/apk/* \
 EXPOSE 1218
-CMD /httpmq -auth="208326" -ip="0.0.0.0"
-~
+CMD /httpmq -auth="password" -ip="0.0.0.0"
