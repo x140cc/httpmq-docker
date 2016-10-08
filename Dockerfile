@@ -1,5 +1,4 @@
 FROM alpine
-ADD . /
 ENV ORG_PATH="github.com/x140cc/httpmq"
 ENV REPO_PATH="${ORG_PATH}"
 RUN apk --update add go git \
